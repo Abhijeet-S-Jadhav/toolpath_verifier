@@ -1,0 +1,12 @@
+/**:
+  ros__parameters:
+    standoff_distance: 0.150
+    expected_point_spacing: 0.005
+    gap_detection_threshold: 0.015
+    max_bridgeable_gap: 0.120
+    corridor_radial_margin: 0.025
+    min_mesh_points_for_metal: 10
+    min_normal_collinearity: 0.707
+    valve_actuation_delay_s: 0.050
+    nominal_tcp_speed_mps: 0.200
+    overspray_safety_margin_m: 0.010

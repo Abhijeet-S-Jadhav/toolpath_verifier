@@ -1,0 +1,11 @@
+/**:
+  ros__parameters:
+    no_spray_zones:
+      - zone_id: "pipe_threaded_end"
+        min_bound: [0.150, -0.050, -0.050]
+        max_bound: [0.250, 0.050, 0.050]
+        action_mode: "DIGITAL_SHUTOFF"
+      - zone_id: "mounting_flange"
+        min_bound: [-0.250, -0.060, -0.060]
+        max_bound: [-0.200, 0.060, 0.060]
+        action_mode: "LIFTOFF_BYPASS"
